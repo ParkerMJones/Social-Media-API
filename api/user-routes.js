@@ -15,7 +15,7 @@ const {
 router
     .route('/')
     .get(getAllUsers)
-    .post(createUsers)
+    .post(createUser)
 
 //  /api/users/:id  GET, PUT, DELETE
 router
@@ -28,6 +28,6 @@ router
 router
     .route('/:id/friends/:friendId')
     .post(addFriend)
-    .delete(deleteFreind);
+    .delete(deleteFriend);
 
 module.exports = router;

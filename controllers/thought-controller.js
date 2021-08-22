@@ -2,7 +2,7 @@ const { Thought, User } = require('../models');
 
 const thoughtController = {
 
-    createThoughts({params, body}, res) {
+    createThought({params, body}, res) {
         Thought.create(body)
             .then(({_id}) => {
                 return User.findOneAndUpdate({ _id: params.userId}, {$push: {thoughts: _id}}, {new: true});
@@ -113,5 +113,6 @@ const thoughtController = {
             })
             .catch(err => res.status(400).json(err));
     }
-    
 }
+
+module.exports = thoughtController;
