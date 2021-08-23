@@ -40,7 +40,7 @@ const thoughtController = {
             select: '-__v'
         })
         .select('-__v')
-        .thcn(dbThoughtData => {
+        .then(dbThoughtData => {
             if(!dbThoughtData) {
                 res.status(400).json({message: "no thoughts here"})
                 return;

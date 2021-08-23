@@ -12,7 +12,7 @@ const UserSchema = new Schema(
             type: String,
             required: true,
             unique: true,
-            match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/]
+            match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/]
         },
         thoughts: [{
             type: Schema.Types.ObjectId,
@@ -36,6 +36,6 @@ UserSchema.virtual('friendCount').get(function() {
     return this.friends.length;
 })
 
-const Users = model('Users', UserSchema);
+const User = model('User', UserSchema);
 
-module.exports = Users;
+module.exports = User;
