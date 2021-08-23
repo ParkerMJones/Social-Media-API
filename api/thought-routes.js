@@ -29,7 +29,7 @@ router
 
 //  /api/thoughts/:thoughtId/reactions POST
 router
-    .route('/:thoughtId/readtions')
+    .route('/:thoughtId/reactions')
     .post(addReaction)
 
 //  /api/thoughts/:thoughtId/reactionId DELETE
