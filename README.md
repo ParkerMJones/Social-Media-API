@@ -26,6 +26,6 @@ https://github.com/ParkerMJones
   
 ![Avatar](https://github.com/ParkerMJones.png?size=50)
   
-Project URL: https://github.com/ParkerMJones/README-Generator
+Project URL: https://github.com/ParkerMJones/Social-Media-API
   
 Contact the developer: parker.matthewjones@gmail.com.
