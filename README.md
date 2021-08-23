@@ -3,9 +3,7 @@
   ### Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributors](#contributors)
   - [License](#license)
-  - [Tests](#tests)
   - [Contact](#contact)
 
   ### Installation
@@ -16,18 +14,11 @@
   
   ![Social-API](./Social_Api.gif)
 
-
-  ### Contributors
-  
-
   ### License
   
 ![Badge](http://img.shields.io/badge/license--blue.svg)
   
 https://opensource.org/licenses/
-
-
-  ### Tests
 
   ### Contact
   
