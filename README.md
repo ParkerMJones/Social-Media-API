@@ -14,7 +14,7 @@
   ### Usage
   Post your thoughts, react to other users' thoughts, and make friends
   
-  ![Social-API]()
+  ![Social-API](https://raw.githubusercontent.com/ParkerMJones/Social-Media-API/main/Social_API.gif)
 
 
   ### Contributors
