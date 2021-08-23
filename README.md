@@ -14,7 +14,7 @@
   ### Usage
   Post your thoughts, react to other users' thoughts, and make friends
   
-  ![Social-API](./Social_API.gif)
+  ![Social-API](./Social_Api.gif)
 
 
   ### Contributors
